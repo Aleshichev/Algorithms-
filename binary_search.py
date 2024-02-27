@@ -18,3 +18,4 @@ my_list = list(range(1, 101))
 
 print(binary_search(my_list, 68, 0))
 print(binary_search(my_list, 33, 0))
+print('Hi Git')
