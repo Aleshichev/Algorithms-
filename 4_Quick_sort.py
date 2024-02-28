@@ -1,29 +1,29 @@
-# # Quick sort
+# Quick sort
 
-# def sum(arr):
-#     total = 0
-#     for x in arr:
-#         total += x
-#     return total
+def sum(arr):
+    total = 0
+    for x in arr:
+        total += x
+    return total
 
-# print(sum([1,2,3,4]))
+print(sum([1,2,3,4]))
 
-# def rec(arr):
-#     if not arr:
-#         return 0
-#     else:
-#         return 1 + rec(arr[1:])
+def rec(arr):
+    if not arr:
+        return 0
+    else:
+        return 1 + rec(arr[1:])
     
-# #------------recursion --------------------
-# def sum_arr(arr):
-#     if not arr:  # Если список пустой
-#         return 0
-#     else:
-#         return arr[0] + sum_arr(arr[1:])  # Суммируем первый элемент с суммой оставшихся элементов
+#------------recursion --------------------
+def sum_arr(arr):
+    if not arr:  # Если список пустой
+        return 0
+    else:
+        return arr[0] + sum_arr(arr[1:])  # Суммируем первый элемент с суммой оставшихся элементов
 
-# # Пример использования
-# my_list = [1, 2, 3, 4, 5]
-# print("Сумма элементов списка:", sum_arr(my_list))
+# Пример использования
+my_list = [1, 2, 3, 4, 5]
+print("Сумма элементов списка:", sum_arr(my_list))
 
 #----------Quick sort   ---------------------------
 
