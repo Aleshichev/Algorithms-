@@ -1,3 +1,5 @@
+#Бинарный поиск
+
 def binary_search(list, item, count):
     low = 0
     high = len(list)-1 
