@@ -41,10 +41,10 @@ graph["start"] = {}
 graph["start"]["a"] = 6
 graph["start"]["b"] = 2
 graph["a"] = {}
-graph["a"]["fin"] = 1
+graph["a"]["fin"] = 2
 graph["b"] = {}
-graph["b"]["a"] = 3
-graph["b"]["fin"] = 5
+graph["b"]["a"] = 7
+graph["b"]["fin"] = 11
 graph["fin"] = {}
 
 infinity = float("inf")
@@ -87,4 +87,6 @@ while node is not None:
     node = find_lowest_cost_node(costs)
 
 
-print(processed)
+print(cost)
+# print(parents)
+# print(costs)
